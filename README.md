@@ -1,6 +1,6 @@
 ### Description
 
-A Vagrant project that creates an ```vagrant box``` configured as follow:
+A Vagrant project that creates a ```vagrant box``` configured as follow:
 
 - Hostname : ```bananas3```
 
@@ -27,6 +27,6 @@ A Vagrant project that creates an ```vagrant box``` configured as follow:
 - Clone this repo to your local machines : `git clone git@github.com:galindonkov/vagrant-projectA.git`
 - Change to the currently added directory : `cd vagrant-projectA/`
 - Execute `vagrant up` to build your local DEV environment
-- Once the DEV env is created, login to created VM machines ```web1 and web2```by : `vagrant ssh web1` or `vagrant ssh web2`
+- Once the DEV env is created, login to created VM machine by : `vagrant ssh`
 - Once you finish with the test type `exit` to leave the Vagrant-built virtual machine.
 - Bear in mind that the Vm will remain running, so in case it is not needed anymore you can either shut down the running machine Vagrant is managing by `vagrant halt` or using `vagrant destroy` to stop the running machine and destroy all resources that were created during the machine creation process.
